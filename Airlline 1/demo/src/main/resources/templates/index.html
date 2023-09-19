@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Airline Reservation System</title>
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Add your custom CSS here if needed -->
+    <style>
+        /* Add custom CSS for animations and background image */
+        body {
+            margin: 0;
+            overflow: scroll;
+            background: url('/Airline_Reservations_System156.jpg') no-repeat center center fixed;
+            background-size: cover;
+            animation: fadeIn 2s;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #fff;
+        }
+
+        .navbar {
+            padding: 20px 0; /* Adjust padding to make the navbar bigger */
+        }
+
+        .navbar-brand {
+            font-size: 24px; /* Adjust font size for the brand */
+        }
+
+        .navbar-dark .navbar-toggler-icon {
+            background-color: #fff; /* Change the color of the toggler icon */
+        }
+
+        .navbar-nav .nav-link {
+            font-size: 18px; /* Adjust font size for the links */
+        }
+
+        .btn {
+            font-size: 18px;
+            padding: 15px 30px;
+            margin: 10px;
+            border: none;
+            background-color: #007BFF;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Airline Reservation System</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/search-flights">Search Flights</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/manage-reservations">Manage Reservations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/registration">Registrations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/login">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1 class="text-center">Welcome to the Airline Reservation System</h1>
+    </div>
+
+    <!-- Link to Bootstrap JS (jQuery and Popper.js required) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
